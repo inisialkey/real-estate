@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:real_estate/common/app_color.dart';
+import 'package:real_estate/pages/home_page.dart';
 import 'package:real_estate/pages/onboard_page.dart';
 
 void main() {
@@ -19,6 +20,14 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.light(primary: AppColor.primary),
       ),
       home: const OnBoardPage(),
+      onGenerateRoute: (settings) {
+        switch (settings.name) {
+          case '/home':
+            return MaterialPageRoute(builder: (context) => const HomePage());
+          default:
+            return buildNotFoundPage();
+        }
+      },
     );
   }
 
