@@ -145,7 +145,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               fit: StackFit.expand,
               children: [
                 Image.asset(
-                  'assets/house1.jpg',
+                  'assets/img_house1.jpg',
                   alignment: Alignment.topCenter,
                   fit: BoxFit.cover,
                 ),
