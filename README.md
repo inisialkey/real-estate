@@ -1,16 +1,7 @@
-# real_estate
+# Real Estate App UI
 
-A new Flutter project.
+![Real Estate App UI](https://github.com/inisialkey/inisialkey/blob/main/assets/real-estate-clone-ui.png)
 
-## Getting Started
+# Preview
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<image src="https://github.com/inisialkey/inisialkey/blob/main/assets/real-estate.gif" caption=""  height="520" position="center" command="fill" option="q100" class="img-fluid" title=""  webp="false">
